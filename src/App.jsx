@@ -1,11 +1,36 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AppLayout from "./layout/AppLayout";
+import HomePage from "./pages/HomePage";
+import QuizPage from "./pages/QuizPage";
+import ResultPage from "./pages/ResultPage";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />
+      },
+      {
+        path: "quiz",
+        element: <QuizPage />
+      },
+      {
+        path: "result",
+        element: <ResultPage />
+      },
+    ]
+  },
+]);
 
 function App() {
 
   return (
-    <div>
-      <h1 className="text-center text-3xl font-bold text-appPurple">Frontend Quiz</h1>
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   )
 }
 
