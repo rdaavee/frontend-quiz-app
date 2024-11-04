@@ -13,6 +13,10 @@
     src: url("/fonts/Rubik-VariableFont_wght.ttf");
 }
 
-body {
-    @apply font-rubik;
+@layer base {
+
+    body,
+    #root {
+        @apply font-rubik min-h-screen;
+    }
 }
