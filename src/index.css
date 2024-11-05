@@ -17,6 +17,6 @@
 
     body,
     #root {
-        @apply font-rubik min-h-screen;
+        @apply font-rubik min-h-screen text-greyNavy dark:text-white;
     }
 }
