@@ -1,7 +1,7 @@
 {
   "quizzes": [
     {
-      "title": "HTML Basics",
+      "title": "HTML",
       "icon": "/icons/icon-html.svg",
       "iconBackground": "#E0FDEF",
       "questions": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "title": "CSS Basics",
+      "title": "CSS",
       "icon": "/icons/icon-css.svg",
       "iconBackground": "#E0FDEF",
       "questions": [
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "title": "JavaScript Basics",
+      "title": "JavaScript",
       "icon": "/icons/icon-javascript.svg",
       "iconBackground": "#E0FDEF",
       "questions": [
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "title": "Web Accessibility",
+      "title": "Accessibility",
       "icon": "/icons/icon-accessibility.svg",
       "iconBackground": "#E0FDEF",
       "questions": [
